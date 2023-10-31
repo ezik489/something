@@ -1,23 +1,59 @@
-import time
-time.sleep(7)
+
 from turtle import *
-g = textinput("","Chose a letter, a or b: ")
-def a():
-    for i in range(7000000):
-        forward(70)
-        right(70)
 
-def b():
-    for i in range(700000):
-        forward(50)
-        left(50)
-if g == "a":
-    a()
-elif g == "A":
-    a()
-elif g == "B":
-    b()
-else:
-    b()
+def somthing():
+    speed(1000)
+    penup()
+    left(90)
+    forward(50)
+    left(90)
+    forward(200)
+    pendown()
+    left(90)
+    forward(100)
+    penup()
+    left(90)
+    forward(50)
+    pendown()
+    left(135)
+    forward(71)
+    right(90)
+    forward(71)
+    right(45)
+    penup()
+    forward(30)
+    right(90)
+    pendown()
+    forward(100)
+    left(90)
+    penup()
+    forward(30)
+    left(90)
+    pendown()
+    forward(100)
+    right(155)
+    forward(110)
+    left(155)
+    forward(100)
+    right(90)
+    penup()
+    forward(70)
+    right(90)
+    forward(66)
+    left(90)
+    pendown()
+    forward(40)
+    right(90)
+    forward(4)
+    for i in range(28):
+        forward(4)
+        right(6)
+    right(12)
+    forward(35)
+    for i in range(25):
+        forward(4)
+        right(6)
 
+
+somthing()
 exitonclick()
