@@ -33,7 +33,7 @@ for letter in word:
         penup()
         forward(40)
         pendown()
-    elif letter == "l":
+    elif letter == "l"  :
         pismeno_l()
         penup()
         forward(40)
