@@ -1,9 +1,11 @@
+import random
+
 class Hrad:
     mistnosti = ["obývák", "chodba", "sklep", "trůnní sál"]
     chodby = [[1, 2], [0], [0], [1, 2]]
     zamcene_chodby = [[], [3], [], []]
     klic = 2
-    zlato = [1, 0, 10, 3000]
+    zlato = [random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 15000)]
     jmeno = "Hrad"
 
 class Posta:
@@ -11,7 +13,7 @@ class Posta:
     chodby = [[1, 2], [0], [0], [1, 2]]
     zamcene_chodby = [[], [3], [], []]
     klic = 1
-    zlato = [0, 0, 60, 250]
+    zlato = [random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 2500)]
     jmeno = "Posta"
 
 class Chalupa:
@@ -19,5 +21,5 @@ class Chalupa:
     chodby = [[1, 2], [0, 3], [0], [1]]
     zamcene_chodby = [[], [], [], [3]]
     klic = 1
-    zlato = [0, 0, 50, 250]
+    zlato = [random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 5000)]
     jmeno = "Chalupa"
